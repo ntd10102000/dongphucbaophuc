@@ -201,7 +201,7 @@ function renderCart($id)
          <div class="row mb-4">
          <div class="col-md-5 col-lg-3 col-xl-3">
              <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
-                 <img class="product-img img-fluid w-100" src="./uploads/' .  getImageProduct($cartDetail["id_product"]) . '" >
+                 <img class="product-img img-fluid w-100" src="' .  getImageProduct($cartDetail["id_product"]) . '" >
                  <a class = "product-link" href="./products.php?id=' . $cartDetail["id_product"] . '">
                      <div class="mask waves-effect waves-light">
                          <div class="mask rgba-black-slight waves-effect waves-light"></div>

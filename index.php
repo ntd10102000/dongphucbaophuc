@@ -22,7 +22,7 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
 <!-- NEW ARRAIVAL-->
 <div class="bg-gradient-primary">
   <div class="home-new-arrial container-fluid">
-    <div class="prd-detail-title">NEW ARRIVAL</div>
+    <div class="prd-detail-title">ĐỒNG PHỤC ÁO PHÔNG CỔ BẺ ( POLO )</div>
     <div class="slider prd-detail-slide">
       <?php
       $products = getNewProduct();
@@ -34,7 +34,7 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
 
 <!-- FAVOURITE -->
 <div class="home-sale-off container-fluid">
-  <div class="prd-detail-title">FAVOURITE</div>
+  <div class="prd-detail-title">ĐỒNG PHỤC ÁO HỌP LỚP</div>
   <div class="slider prd-detail-slide">
     <?php
     $products = getFavouriteProducts();
@@ -45,7 +45,7 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
 
 <!-- SALE OFF -->
 <div class="home-sale-off container-fluid">
-  <div class="prd-detail-title">SALE OFF</div>
+  <div class="prd-detail-title">ĐỒNG PHỤC ÁO SƠ MI CÔNG SỞ</div>
   <div class="slider prd-detail-slide">
     <?php
     $products = getSaleProduct();
@@ -56,7 +56,27 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
 
 <!-- BEST SELLER -->
 <div class="home-best-seller container-fluid">
-  <div class="prd-detail-title">BEST SELLER</div>
+  <div class="prd-detail-title">ĐỒNG PHỤC ÁO LỚP OVERSIZE</div>
+  <div class="slider prd-detail-slide">
+    <?php
+    $products = getHotProduct();
+    echo renderThumbnailProductListHome($products);
+    ?>
+  </div>
+</div>
+
+<div class="home-best-seller container-fluid">
+  <div class="prd-detail-title">ĐỒNG PHỤC BẢO HỘ LAO ĐỘNG</div>
+  <div class="slider prd-detail-slide">
+    <?php
+    $products = getHotProduct();
+    echo renderThumbnailProductListHome($products);
+    ?>
+  </div>
+</div>
+
+<div class="home-best-seller container-fluid">
+  <div class="prd-detail-title">ĐỒNG PHỤC ÁO KHOÁC GIÓ</div>
   <div class="slider prd-detail-slide">
     <?php
     $products = getHotProduct();
