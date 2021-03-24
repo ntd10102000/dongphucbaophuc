@@ -20,6 +20,7 @@
   <link rel="stylesheet" type="text/css" href="https://select2.github.io/select2-bootstrap-theme/css/select2-bootstrap.css">
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0" nonce="veeVUSmk"></script>
 
   <!-- GG FORNT -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -79,7 +80,7 @@
   <!--Đã đăng nhập-->
   <div class="header container-fluid d-none d-lg-block ">
     <div class="row">
-      <ul class="header__menu list-unstyled d-flex mb-0 w-100 justify-content-end" style="background: #ffffff;coler:#00aae3 !important">
+      <ul class="header__menu list-unstyled d-flex mb-0 w-100 justify-content-end" style="background: #ffffff;color:#00aae3 !important">
         <li class="header__item"><a class="header__item--link" href="./login.php"><i class="fas fa-clipboard-list header__item-icon"></i>Tra cứu đơn hàng</a></li>
         <li class="header__item"><a class="header__item--link" href="./index.php"><i class="fas fa-map-marker-alt header__item-icon"></i> Tìm cửa hàng</a></li>
         <!-- ĐÃ đăng Nhập -->
