@@ -28,7 +28,7 @@
   <div class="container">
     <div class="row">
       <div class="footer-left">
-        <p style="margin-top:0pt; margin-bottom:0pt; margin-left:0in; text-align:left"><span style="color:#ecf0f1;"><span style="font-size:18px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:200%"><span style="unicode-bidi:embed"><span style="word-break:normal">CTY TNHH DT &amp;&nbsp;PT CATI VIET NAM</span></span></span></span></span></span></p>
+        <p style="margin-top:0pt; margin-bottom:0pt; margin-left:0in; text-align:left"><span style="color:#ecf0f1;"><span style="font-size:18px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:200%"><span style="unicode-bidi:embed"><span style="word-break:normal">ĐỒNG PHỤC BẢO PHÚC</span></span></span></span></span></span></p>
 
         <p style="margin-top:0pt; margin-bottom:0pt; margin-left:0in; text-align:left"><span style="color:#ecf0f1;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:200%"><span style="unicode-bidi:embed"><span style="word-break:normal"><span style="font-weight:bold">Địa chỉ&nbsp;</span>: Số nhà 23,ngõ 89 phạm văn đồng(ngõ 2 cũ),ngách 12a/2</span></span></span></span></span></span></p>
 

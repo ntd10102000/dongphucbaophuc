@@ -2,7 +2,7 @@
 require_once 'init.php';
 $title = "Guno Store";
 // Xử lý logic ở đây
-if (isset($_POST["unsetBill"])) {
+if (isset($_POST["unsetBill"])) {  
   unset($_SESSION["id_bill"]);
 }
 
@@ -22,7 +22,7 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
 <!-- NEW ARRAIVAL-->
 <div class="bg-gradient-primary">
   <div class="home-new-arrial container-fluid">
-    <div class="prd-detail-title">ĐỒNG PHỤC ÁO PHÔNG CỔ BẺ ( POLO )</div>
+    <div class="prd-detail-title">ĐỒNG PHỤC ÁO PHÔNG</div>
     <div class="slider prd-detail-slide">
       <?php
       $products = getNewProduct();
@@ -37,18 +37,7 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
   <div class="prd-detail-title">ĐỒNG PHỤC ÁO HỌP LỚP</div>
   <div class="slider prd-detail-slide">
     <?php
-    $products = getFavouriteProducts();
-    echo renderThumbnailProductListHome($products);
-    ?>
-  </div>
-</div>
-
-<!-- SALE OFF -->
-<div class="home-sale-off container-fluid">
-  <div class="prd-detail-title">ĐỒNG PHỤC ÁO SƠ MI CÔNG SỞ</div>
-  <div class="slider prd-detail-slide">
-    <?php
-    $products = getSaleProduct();
+    $products = getDongPhucAoLop();
     echo renderThumbnailProductListHome($products);
     ?>
   </div>
@@ -56,10 +45,10 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
 
 <!-- BEST SELLER -->
 <div class="home-best-seller container-fluid">
-  <div class="prd-detail-title">ĐỒNG PHỤC ÁO LỚP OVERSIZE</div>
+  <div class="prd-detail-title">ĐỒNG PHỤC CÔNG SỞ</div>
   <div class="slider prd-detail-slide">
     <?php
-    $products = getHotProduct();
+    $products = getDongPhucCongSo();
     echo renderThumbnailProductListHome($products);
     ?>
   </div>
@@ -69,7 +58,7 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
   <div class="prd-detail-title">ĐỒNG PHỤC BẢO HỘ LAO ĐỘNG</div>
   <div class="slider prd-detail-slide">
     <?php
-    $products = getHotProduct();
+    $products = getDongPhucBaoHoLaoDong();
     echo renderThumbnailProductListHome($products);
     ?>
   </div>
@@ -79,7 +68,7 @@ if (isset($_POST['content-post']) && isset($_FILES["img-post"])) {
   <div class="prd-detail-title">ĐỒNG PHỤC ÁO KHOÁC GIÓ</div>
   <div class="slider prd-detail-slide">
     <?php
-    $products = getHotProduct();
+    $products = getDongPhucAoKhoacGio();
     echo renderThumbnailProductListHome($products);
     ?>
   </div>

@@ -21,5 +21,5 @@
         <a class="text-dark" href="forgetPass.php">Forget password ??</a>
         <a class="text-dark" href="register.php">Register</a>
     </div>
-    <button type="submit" class="btn w-100 m-auto bg-primary-color btn-primary-color">Login</button>   
+    <button type="submit" class="btn w-100 m-auto bg-primary-color btn-primary-color" style="background:#0072bb !important;border: 1px solid #0072bb !important;">Login</button>   
 </form>
